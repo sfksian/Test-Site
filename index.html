@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog Test</title>
+<link rel="stylesheet" href="form">
+<!-- Need to download the CSS file for this to change appearance of form -->
+</head>
+<body>
+<header>
+<hgroup>
+<h1 id="top">Blog Name</h1>
+<p>One line on the blog's subject</p>
+<nav>
+<ul>
+<li><a href="More Articles/More Articles.html">All Articles</a></li>
+<li><a href="Article One.html"> Featured Article</a></li>
+<li>Home Page</li>
+</ul>
+</nav>
+</hgroup>
+</header>
+<p><a href="#mi"> Straight to more info </a></p>
+<hr>
+<p> Practice image formats here </p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element"> SVG ELEMENTS HERE </a></p>
+
+<svg viewbox="http://www.w3.org/2000/svg" width="100" height="100">
+  <circle cx="50" cy="50" r="40" stroke="green" stroke-width="2" fill="none" />
+</svg>
+<svg viewbox= "http://www.w3.org/2000/svg" width="200" height="100">
+<polygon points="0,100 50,150 80,25 200,200,50,0" stroke-width="2" fill="none" stroke="green" />
+</svg>
+
+<p>&nbsp;</p>
+<main>
+<article>
+<header>
+<h2>Article Title</h2>
+<time datetime="2026-04-17"> 17 April 2026</time>
+<p>&nbsp;</p>
+<img src="https://placehold.co/300x200"
+alt="placeholder 330x200">
+</header>
+<p> <strong> Beginning of the article text goes here. </strong> <br> Next paragraph continues here. </p>
+<a href="Article One.html">Read More</a>
+</article>
+<div> </div>
+<p><a href="More Articles/More Articles.html">Our Articles Here</a></p>
+
+<form action="submit.html" method="GET">
+<fieldset>
+<legend><h3>Create Your Daydream</h3></legend>
+<div>
+<label for="Thought">Your Thought</label>
+<input id="Thought" name="Thought"
+  required placeholder="what ya thinking">
+</div>
+<div>
+<label for="Why"> Why? </label>
+<input id="Why" name="Reason" type="password"
+  required placeholder="what ya thinking that for" minlength="8">
+<!-- The for/ ID adds an Explict input association which allows user to click on box title to enter answer-->
+<!-- Look into Regex patterns-->
+</div>
+<button type="submit">Think Thought</button>
+<div>
+<input type="checkbox" id="Type"
+  name="Type" value="subscribe" checked>
+<label for="Type">I declare this thought is not a dream</label>
+<fieldset>
+<legend><h4>Select your thought type:</h4></legend>
+<input type="radio" id="daydream"
+  name="type" value="daydream">
+<label for="daydream">Daydream</label>
+<div>
+<input type="radio" id="desire"
+  name="type" value="desire">
+<label for="desire">Desire</label>
+</div>
+</fieldset>
+</div>
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/form">Learn Forms attributes here</a>
+</fieldset>
+</form>
+
+<article>
+<header>
+<h2 id="mi"> More Info </h2>
+<time datetime="2026-04-18"> 18 April 2026</time>
+</header>
+<p> HTTP: hypertext Transfer Protocol <br> URL: Uniform Resource Locators <br> HTML: To create the webpages </p>
+<a href="https://itsnicethat.com" targe="_blank" >Other Blog Site References</a>
+
+<h3> Key Notes </h3>
+<p>
+<ul>
+<li>Use anchor tag + href value</li>
+<li>Relative URLS example below</li>
+</ul>
+</p>
+</article>
+</main>
+
+<footer>
+<a href="#top"> Back to top</a>
+<p> ©2026 Blog Title. </p>
+</footer>
+</body>
+</html>
