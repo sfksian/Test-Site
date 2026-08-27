@@ -1,5 +1,5 @@
-head {
-    background-color: rgb(23, 65, 121);
+body {
+    background-color: rgb(10, 60, 90);
 }
 
 #form {
@@ -8,12 +8,13 @@ head {
 }
 
 h1 {
+    font-family: fantasy;
     color: rgb(201, 219, 243);
     text-align: right;
     font-size: 40px;
 }
 
 p {
+    font-family: monospace;
     color: white;
 }
-    
