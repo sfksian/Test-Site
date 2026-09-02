@@ -2,6 +2,8 @@ body {
     background-color: rgb(10, 60, 90);
     background-image: url("Test BG.png");
     background-blend-mode: luminosity;
+    background-attachment: fixed;
+    background-image: url("Scroll BG.png");
     background-attachment: scroll;
 }
 
@@ -10,6 +12,12 @@ body {
    color: rgb(201, 219, 243);
    border-style: inset;
    border-width: 5px 5px;
+   border-colour: rgb(197, 128, 0)
+}
+
+ { 
+
+
 }
 
 h1,h2,h3 {
