@@ -2,6 +2,7 @@ body {
     background-color: rgb(10, 60, 90);
     background-image: url("Test BG.png");
     background-blend-mode: luminosity;
+    background-attachment: scroll;
 }
 
 #form {
